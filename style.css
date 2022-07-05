@@ -6,7 +6,8 @@ body {
 h1 {
     font-size: 50px;
 }
-.para1{
+
+.para1 {
     text-align: justify;
 }
 
@@ -14,7 +15,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -40,15 +41,54 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
+}
+
+section {
     margin-bottom: 100px;
 }
-.dream-big{
+
+.dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-.para2{
+
+.para2 {
     text-align: justify;
     padding-right: 10%;
-    
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    margin-bottom: 50px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+.para3 {
+    padding-right: 20px;
+    text-align: justify;
+}
+
+footer p {
+    text-align: center;
 }
