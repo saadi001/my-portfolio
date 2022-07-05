@@ -93,5 +93,8 @@ footer p {
     text-align: center;
 }
 .experience{
-    padding-left: 5%;
+    margin-left: 5%;
+    border-left: 7px solid tomato;
+    padding-left: 5px;
+    
 }
