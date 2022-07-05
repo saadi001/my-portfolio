@@ -6,6 +6,9 @@ body {
 h1 {
     font-size: 50px;
 }
+.para1{
+    text-align: justify;
+}
 
 .my-name {
     color: orange;
@@ -37,4 +40,15 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.para2{
+    text-align: justify;
+    padding-right: 10%;
+    
 }
